@@ -1,0 +1,21 @@
+<div class="resultado">
+{% if option == "hipertensao" %}
+    {% include "recommendations/hipertensao.html" %}
+
+{% elif option == "enxaqueca" %}
+    {% include "recommendations/enxaqueca.html" %}
+
+{% elif option == "lombalgia" %}
+    {% include "recommendations/lombalgia.html" %}
+
+{% elif option == "disuria" %}
+    {% include "recommendations/disuria.html" %}
+
+{% elif option == "nauseas" %}
+    {% include "recommendations/nauseas.html" %}
+
+{% elif option == "pirose" %}
+    {% include "recommendations/pirose.html" %}
+
+{% endif %}
+</div>

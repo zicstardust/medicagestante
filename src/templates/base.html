@@ -1,0 +1,20 @@
+<!doctype html>
+<html id=base lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <head>
+        <link rel="icon" href="{{ url_for('static', filename=icon) }}">
+        <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+        <title>Medica Gestante</title>
+    </head>
+
+
+    <body>
+        {% block questions %}{% endblock %}
+        {% block results %}{% endblock %}
+        <script src="{{ url_for('static', filename='script.js') }}"></script>
+     
+    </body>
+</html>

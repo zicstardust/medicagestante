@@ -5,12 +5,12 @@
 
 | Tag | Description |
 | :----: | :----: |
-| [`latest`](https://github.com/zicstardust/MedicaGestante/blob/main/Dockerfile) | Default Tag |
+| [`latest`](https://github.com/zicstardust/medicagestante/blob/main/Dockerfile) | Default Tag |
 
 ### Registries
 | Registry | Full image name | Description |
 | :----: | :----: | :----: |
-| [`ghcr.io`](https://github.com/zicstardust/MedicaGestante/pkgs/container/MedicaGestante) | `ghcr.io/zicstardust/MedicaGestante` | GitHub |
+| [`ghcr.io`](https://github.com/zicstardust/medicagestante/pkgs/container/medicagestante) | `ghcr.io/zicstardust/medicagestante` | GitHub |
 
 
 ### Supported Architectures
@@ -32,7 +32,7 @@
 services:
   medicagestante:
     container_name: medicagestante
-    image: ghcr.io/zicstardust/MedicaGestante:latest
+    image: ghcr.io/zicstardust/medicagestante:latest
     restart: unless-stopped
     environment:
       TZ: America/Cuiaba

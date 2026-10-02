@@ -18,12 +18,7 @@
 | Architecture | Available | Tag |
 | :----: | :----: | ---- |
 | amd64 | ✅ | latest |
-| arm/v6 | ✅ | latest |
-| arm/v7 | ✅ | latest |
 | arm64 | ✅ | latest |
-| ppc64le | ✅ | latest |
-| riscv64 | ✅ | latest |
-| s390x | ✅ | latest |
 
 
 ## Usage

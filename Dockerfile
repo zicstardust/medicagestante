@@ -1,4 +1,4 @@
-FROM python:3.14.8-alpine
+FROM python:3.14.8-alpine3.24
 
 ENV PYTHONUNBUFFERED=1
 ENV PATH="/home/medicagestante/.local/bin:${PATH}"

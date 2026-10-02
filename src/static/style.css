@@ -1,0 +1,81 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0f172a;
+    color: #e2e8f0; 
+    padding: 30px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.resultado {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+.form-container {
+    background-color: #1e293b;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+.radio-group {
+    margin-bottom: 12px;
+}
+
+.btn-submit {
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.btn-submit:hover {
+    background-color: #1d4ed8;
+}
+
+/* Estilo da linha de divisão */
+hr {
+    border: 0;
+    height: 1px;
+    background-color: #334155;
+    margin: 15px 0 25px 0;
+}
+
+/* Estilo para a caixa de alerta com borda vertical */
+.alert-box {
+    border-left: 4px solid #64748b;
+    padding-left: 15px;
+    margin: 20px 0 30px 0;
+    color: #cbd5e1;
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+.section-title {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    letter-spacing: 0.5px;
+}
+
+ul.lista-tratamento {
+    list-style-type: disc;
+    padding-left: 20px;
+    line-height: 1.6;
+}
+
+ul.sublista {
+    list-style-type: circle;
+    padding-left: 25px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}

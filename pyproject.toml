@@ -13,7 +13,6 @@ dependencies = [
     "waitress>=3.0.2",
 ]
 
-# Configuração para ignorar pastas que não contêm módulos Python
 [tool.setuptools.packages.find]
 where = ["."]
 exclude = ["static*", "templates*"]

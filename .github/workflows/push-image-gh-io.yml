@@ -5,7 +5,7 @@ on:
     branches: [ "main" ]
     paths:
       - 'Dockerfile'
-      - 'requirements.txt'
+      - 'pyproject.toml'
       - 'src/**'
       - 'entrypoint.sh'
 

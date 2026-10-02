@@ -7,7 +7,6 @@ if [ "$(id -g medicagestante)" != "${PGID}" ]; then
     groupmod -o -g "${PGID}" medicagestante
 fi
 
-
 if [ "$(id -u medicagestante)" != "${PUID}" ]; then
     usermod -o -u "${PUID}" medicagestante
 fi

@@ -1,10 +1,11 @@
 FROM python:3.14.8-alpine
 
 ENV PYTHONUNBUFFERED=1
+ENV PATH="/home/medicagestante/.local/bin:${PATH}"
 
 WORKDIR /app
 
-COPY requirements.txt .
+COPY pyproject.toml .
 COPY src/ .
 COPY entrypoint.sh /entrypoint.sh
 
@@ -16,7 +17,10 @@ RUN apk update; \
     apk add --no-cache su-exec shadow; \
     \
     adduser -D -u 1000 -s /bin/nologin -h /home/medicagestante medicagestante; \
-    su-exec medicagestante pip3 install --no-warn-script-location --user --no-cache-dir -r requirements.txt
+    chown -R medicagestante:medicagestante /home/medicagestante; \
+    chown -R medicagestante:medicagestante /app; \
+    \
+    su-exec medicagestante pip3 install --no-cache-dir --user .
 
 EXPOSE 8080
 

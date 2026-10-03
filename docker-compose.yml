@@ -1,5 +1,6 @@
 services:
    medicagestante:
+    image: medicagestante:dev
     container_name: medicagestante
     build:
       dockerfile: Dockerfile

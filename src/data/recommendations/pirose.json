@@ -1,0 +1,30 @@
+{
+  "id": "pirose",
+  "title": "PIROSE / REFLUXO",
+  "treatment": [
+      {
+        "title": "MEDIDAS NÃO FARMACOLÓGICAS (Primeira Linha)",
+        "options": [
+          {
+            "choice": "1ª ESCOLHA",
+            "medication": "Evitar deitar-se logo após comer, elevar a cabeceira da cama, evitar frituras, condimentos, café e refeições volumosas."
+          }
+        ]
+      },
+      {
+        "title": "TRATAMENTO FARMACOLÓGICO",
+        "options": [
+          {
+            "choice": "1ª ESCOLHA (Antiácidos de ação local)",
+            "medication": "Hidróxido de Alumínio (suspensão oral 61 , 5  mg/mL ) – VO, 10 a 20 mL após as refeições e ao deitar.",
+            "remume": "DISPONÍVEL (Item 92 da REMUME)."
+          },
+          {
+            "choice": "2ª ESCOLHA (Inibidores da Bomba de Prótons - IBP / Sintomas Persistentes)",
+            "medication": "Omeprazol 20 mg – VO, 1 vez ao dia pela manhã em jejum.",
+            "remume": "DISPONÍVEL (Item 136 da REMUME)."
+          }
+      ]
+    }
+  ]
+}

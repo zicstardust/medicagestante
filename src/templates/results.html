@@ -1,21 +1,52 @@
 <div class="resultado">
-{% if option == "hipertensao" %}
-    {% include "recommendations/hipertensao.html" %}
+{% if data %}
+    <h2>{{ data.title }}</h2>
+    <hr>
 
-{% elif option == "enxaqueca" %}
-    {% include "recommendations/enxaqueca.html" %}
+    {% if data.alert %}
+        <div class="alert-box">
+            🚨 <strong>Atenção:</strong> {{ data.alert }}
+        </div>
+    {% endif %}
 
-{% elif option == "lombalgia" %}
-    {% include "recommendations/lombalgia.html" %}
+    {% if data.warn %}
+        <div class="alert-box">
+           ⚠️ <strong>Observação:</strong> {{ data.warn }}
+        </div>
+    {% endif %}
 
-{% elif option == "disuria" %}
-    {% include "recommendations/disuria.html" %}
+    {% for treatment in data.treatment %}
+        <div class="section-title">
+            {{ treatment.title }}
+        </div>
 
-{% elif option == "nauseas" %}
-    {% include "recommendations/nauseas.html" %}
+        <ul class="lista-tratamento">
+            {% for option in treatment.options %}
+                <li>
+                    <strong>{{ option.choice }}:</strong> {{ option.medication }}
+                    <ul class="sublista">
+                    
+                    {% if option.alert %}
+                        🚨️ <strong>Atenção:</strong> {{ option.alert }}
+                    {% endif %}
 
-{% elif option == "pirose" %}
-    {% include "recommendations/pirose.html" %}
+                    {% if option.warn %}
+                        ⚠️ <strong>Observação:</strong> {{ option.warn }}
+                    {% endif %}
+
+                    {% if option.remume %}
+                        <li><strong>Status REMUME:</strong>  {{ option.remume }}</li>
+                    {% endif %}
+
+                    {% if option.remume_notes %}
+                        {{ option.remume_notes }}
+                    {% endif %}
+
+                    </ul>
+                </li>
+            {% endfor %}
+        </ul>
+    {% endfor %}
 
 {% endif %}
 </div>

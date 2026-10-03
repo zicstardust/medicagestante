@@ -1,0 +1,36 @@
+{
+  "id": "lombalgia",
+  "title": "LOMBALGIA",
+  "treatment": [
+      {
+      "title": "MEDIDAS NÃO FARMACOLÓGICAS (Primeira Linha)",
+      "options": [
+        {
+          "choice": "1ª ESCOLHA",
+          "medication": "Correção postural, repouso relativo, compressas mornas, fisioterapia e exercícios leves."
+        }
+      ]
+    },
+      {
+      "title": "TRATAMENTO FARMACOLÓGICO",
+      "options": [
+        {
+          "choice": "1ª ESCOLHA",
+          "medication": "Paracetamol 500 mg ou 750 mg – VO, a cada 6 a 8 horas conforme necessidade.",
+          "remume": "DISPONÍVEL (Itens 141 e 142 da REMUME)."
+        },
+        {
+          "choice": "2ª ESCOLHA",
+          "medication": "Dipirona 500 mg – VO, a cada 6 a 8 horas.",
+          "remume": "DISPONÍVEL (Itens 66 e 67 da REMUME)."
+        },
+        {
+          "choice": "CASOS REFRATÁRIOS (Curto período, até a 28ª semana)",
+          "medication": "Ibuprofeno 300 mg a 600 mg – VO.",
+          "warn": "Evitar AINEs a partir do 3º trimestre.",
+          "remume": "DISPONÍVEL (Itens 93, 94 e 95 da REMUME)."
+        }
+      ]
+    }
+  ]
+}

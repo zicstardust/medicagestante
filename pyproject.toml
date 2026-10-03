@@ -19,4 +19,4 @@ prod = [
 
 [tool.setuptools.packages.find]
 where = ["."]
-exclude = ["static*", "templates*"]
+exclude = ["static*", "templates*", "data*"]

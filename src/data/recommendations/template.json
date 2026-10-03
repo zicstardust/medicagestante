@@ -1,0 +1,50 @@
+{
+  "id": "",
+  "title": "",
+  "alert":  "",
+  "warn": "",
+  "treatment": [
+      {
+        "title": "",
+        "options": [
+          {
+            "choice": "",
+            "medication": "",
+            "alert": "",
+            "warn": "",
+            "remume": "",
+            "remume_notes": ""
+          },
+          {
+            "choice": "",
+            "medication": "",
+            "alert": "",
+            "warn": "",
+            "remume": "",
+            "remume_notes": ""
+          }
+        ]
+      },
+      {
+        "title": "",
+        "options": [
+          {
+            "choice": "",
+            "medication": "",
+            "alert": "",
+            "warn": "",
+            "remume": "",
+            "remume_notes": ""
+          },
+          {
+            "choice": "",
+            "medication": "",
+            "alert": "",
+            "warn": "",
+            "remume": "",
+            "remume_notes": ""
+          }
+      ]
+    }
+  ]
+}

@@ -60,5 +60,5 @@ flask --app src/app.py --debug run
 
 ### Run App Production mode:
 ``` shell
-python3 src/server.py
+docker compose up
 ```

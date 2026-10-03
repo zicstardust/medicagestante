@@ -20,10 +20,10 @@ RUN apk update; \
     chown -R medicagestante:medicagestante /home/medicagestante; \
     chown -R medicagestante:medicagestante /app; \
     \
-    su-exec medicagestante pip3 install --no-cache-dir --user .
+    su-exec medicagestante pip3 install --no-cache-dir --user ".[prod]"
 
 EXPOSE 8080
 
 ENTRYPOINT ["/entrypoint.sh"]
 
-CMD ["python", "server.py"]
+CMD ["gunicorn", "--workers=3", "--bind=0.0.0.0:8080", "app:app"]

@@ -1,0 +1,31 @@
+{% block nav %}
+<header class="app-header">
+        <div class="header-container">
+            <!-- Nome da Aplicação Bem Grande -->
+            <h1 class="app-title">
+                <a href="{{ url_for('homepage.homepage') }}">Médica Gestante</a>
+            </h1>
+
+            <!-- Menu de Navegação -->
+            <nav class="app-nav">
+                <ul>
+                    <li>
+                        <a href="{{ url_for('homepage.homepage') }}" class="{% if request.endpoint == 'homepage.homepage' %}active{% endif %}">
+                            Início
+                        </a>
+                    </li>
+                    <li>
+                        <a href="{{ url_for('recommendations.recommendations') }}" class="{% if request.endpoint == 'recommendations.recommendations' %}active{% endif %}">
+                            Condição Gestante
+                        </a>
+                    </li>
+                    <li>
+                        <a href="{{ url_for('calculator.calculator') }}" class="{% if request.endpoint == 'calculator.calculator' %}active{% endif %}">
+                            Calculadora de gestação
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+{% endblock %}

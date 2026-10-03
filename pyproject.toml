@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "medicagestante"
 version = "0.1.0"
 description = "Aplicativo para gestão de pacientes em clínicas de obstetrícia e ginecologia."
-requires-python = ">=3.14.8"
+requires-python = ">=3.14"
 
 dependencies = [
     "flask>=3.1.3",

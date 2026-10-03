@@ -4,15 +4,15 @@
   "alert":  "Se Pressão Arterial (PA) ≥ 160 / 110 mmHg, a gestante apresenta Hipertensão Grave / Pré-Eclâmpsia com Sinais de Alerta e DEVE SER TRATADA NA EMERGÊNCIA / MATERNIDADE!",
   "treatment": [
     {
-      "title": "TRATAMENTO AMBULATORIAL (PA entre 140 / 90 e 159 / 109 mmHg)",
+      "title": "Tratamento Ambulatorial (PA entre 140 / 90 e 159 / 109 mmHg)",
       "options": [
       {
-        "choice": "1ª ESCOLHA",
+        "choice": "1ª Escolha",
         "medication": "Metildopa 250 mg – VO, a cada 8 horas (Dose usual: 750 mg a 2000 mg/dia).",
         "remume": "DISPONÍVEL (Item 116 da REMUME)."
       },
       {
-        "choice": "2ª ESCOLHA",
+        "choice": "2ª Escolha",
         "medication": "Nifedipino 10 mg – VO, a cada 8 horas.",
         "remume": "DISPONÍVEL (Item 130 da REMUME / Item 94 do Centro de Nefrologia)."
       }

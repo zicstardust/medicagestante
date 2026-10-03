@@ -1,24 +1,24 @@
 {
   "id": "disuria",
-  "title": "DISÚRIA / ITU BAIXA - CISTITE / BACTERIÚRIA ASSINTOMÁTICA",
+  "title": "Disúria / Itu Baixa - Cistite / Bacteriúria Assintomática",
   "alert":  "Se houver febre, dor lombar/punho-percussão (Sinal de Giordano positivo) ou calafrios, suspeitar de Pielonefrite ENCAMINHAR PARA INTERNAÇÃO / EMERGÊNCIA",
   "treatment": [
     {
-      "title": "TRATAMENTO AMBULATORIAL (Cistite / Bacteriúria Assintomática)",
+      "title": "Tratamento Ambulatorial (Cistite / Bacteriúria Assintomática)",
       "options": [
         {
-          "choice": "1ª ESCOLHA",
+          "choice": "1ª Escolha",
           "medication": "Nitrofurantoína 100 mg – VO, de 6/6 horas por 7 a 10 dias. ",
           "warn": "Evitar o uso após a 36ª semana de gestação pelo risco de hemólise neonatal.",
           "remume": "DISPONÍVEL (Item 133 da REMUME)."
         },
         {
-          "choice": "2ª ESCOLHA",
+          "choice": "2ª Escolha",
           "medication": "Cefalexina 500 mg – VO, de 6/6 horas por 7 a 10 dias",
           "remume": "DISPONÍVEL (Itens 45 e 46 da REMUME: 500 mg drágea e suspensão oral)."
         },
         {
-          "choice": "3ª ESCOLHA",
+          "choice": "3ª Escolha",
           "medication": "Amoxicilina 500 mg – VO, de 8/8 horas por 7 a 10 dias.",
           "remume": "DISPONÍVEL (Itens 19 e 20 da REMUME)",
           "remume_notes": "(Opção combinada: Amoxicilina + Clavulanato 500/125 mg - Item 22 da REMUME)."

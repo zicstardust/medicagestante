@@ -1,10 +1,10 @@
 {
   "id": "nauseas",
-  "title": "NÁUSEAS E VÔMITOS",
+  "title": "Náuseas E Vômitos",
   "alert":  "Se vômitos incoercíveis com desidratação, perda ponderal ( > 5 ) ou cetonúria (Hiperêmese Gravídica grave), ENCAMINHAR À EMERGÊNCIA / PRONTO-SOCORRO.",
   "treatment": [
       {
-        "title": "TRATAMENTO AMBULATORIAL",
+        "title": "Tratamento Ambulatorial",
         "options": [
         {
           "choice": "Medidas Comportamentais",
@@ -12,7 +12,7 @@
           "remume": "DISPONÍVEL (Item 133 da REMUME)."
         },
         {
-          "choice": "1ª ESCOLHA",
+          "choice": "1ª Escolha",
           "medication": "Metoclopramida 10 mg – VO, 15 a 30 minutos antes das refeições (a cada 8 horas) ou Gotas (4 mg/mL).",
           "remume": "DISPONÍVEL (Itens 117 e 118 da REMUME)."
         },
@@ -22,7 +22,7 @@
           "remume": "DISPONÍVEL (Item 33 da REMUME)."
         },
         {
-          "choice": "2ª ESCOLHA (Casos moderados a refratários)",
+          "choice": "2ª Escolha (Casos moderados a refratários)",
           "medication": "Ondansetrona 4 mg ou 8 mg – VO, a cada 8 ou 12 horas.",
           "remume": "DISPONÍVEL (Itens 137, 138, 139 e 140 da REMUME)."
         }
